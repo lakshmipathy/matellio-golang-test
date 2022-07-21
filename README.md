@@ -4,9 +4,9 @@ Rest micro services
 git clone https://github.com/go-lakshmi/matellio-golang-test.git
 install docker 
 cd matellio-golang-test
-docker build .
+docker build -t mattest:latest .
 docker image ls
-docker run -t mattest:latest -p 0.0.0.0:8080:8080 {docker-image-id}
+docker run -p 0.0.0.0:8080:8080 {docker-image-id}
 
 # Rest Api details
 # get all ports 
